@@ -1,0 +1,999 @@
+2023-05-06 15:55:07.277 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:07.302 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:08.242 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:08.243 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:08.875 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:08.876 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:09.405 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING true
+2023-05-06 15:55:09.493 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 15:55:09.529 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 15:55:09.530 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 15:55:09.531 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 15:55:11.753 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:11.755 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : BrowserStack
+2023-05-06 15:55:11.756 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 15:55:11.757 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 15:55:11.758 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 15:55:11.759 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : true
+2023-05-06 15:55:11.760 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ******************* Configuration values for BrowserStack *******************
+2023-05-06 15:55:11.787 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 15:55:11.847 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BrowserStack ID: Optional[MercuryFlutterAndroid_QA7App]
+2023-05-06 15:55:11.868 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BS app URL MercuryFlutterAndroid_QA7App
+2023-05-06 15:55:11.870 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BS -Server hub-cloud.browserstack.com
+2023-05-06 15:55:11.872 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command [BS] : Optional.empty
+2023-05-06 15:55:11.876 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 15:55:11.877 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[SamsungGalaxyS22BS_12V]
+2023-05-06 15:55:11.881 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 15:55:11.895 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - As BS user is null, running with default BS-user prasanjitkar_hG9efA
+2023-05-06 15:55:11.896 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - As BS key is null, running with default BS-key YrW4cdcwhQsxxSLWscj2
+2023-05-06 15:55:11.898 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 15:55:11.901 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 15:55:11.902 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 15:55:11.903 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 15:55:11.904 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 15:55:11.904 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 15:55:11.905 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 15:55:11.906 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : true
+2023-05-06 15:55:11.907 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 15:55:11.908 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 15:55:11.908 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 15:55:11.909 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 15:55:11.909 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 15:55:11.910 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : BrowserStack
+2023-05-06 15:55:11.911 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 15:55:11.911 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 15:55:11.912 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 15:55:11.912 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 15:55:11.914 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 15:55:11.921 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 15:55:11.922 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 15:55:11.922 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 15:55:11.923 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 15:55:11.924 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 15:55:11.925 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)MercuryFlutterAndroid_QA7App
+2023-05-06 15:55:11.925 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID 
+2023-05-06 15:55:11.926 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 12.0
+2023-05-06 15:55:11.927 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName Samsung Galaxy S22
+2023-05-06 15:55:11.928 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 15:55:11.929 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 15:55:11.930 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == https://prasanjitkar_hG9efA:YrW4cdcwhQsxxSLWscj2@hub-cloud.browserstack.com/wd/hub
+2023-05-06 15:55:39.418 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 15:55:39.569 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 15:55:47.704 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 15:55:47.706 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 15:55:48.087 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 15:55:48.089 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 15:55:48.491 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 15:55:48.636 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:55:48.636 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:28.508 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:28.575 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:29.177 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:29.178 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:29.634 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:29.635 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:30.073 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING true
+2023-05-06 15:57:30.215 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 15:57:30.272 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 15:57:30.274 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 15:57:30.275 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 15:57:31.978 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:31.979 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : BrowserStack
+2023-05-06 15:57:31.980 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 15:57:31.981 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 15:57:31.982 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 15:57:31.984 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : true
+2023-05-06 15:57:31.985 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ******************* Configuration values for BrowserStack *******************
+2023-05-06 15:57:32.004 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 15:57:32.039 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BrowserStack ID: Optional[MercuryFlutterAndroid_QA7App]
+2023-05-06 15:57:32.048 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BS app URL MercuryFlutterAndroid_QA7App
+2023-05-06 15:57:32.049 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BS -Server hub-cloud.browserstack.com
+2023-05-06 15:57:32.050 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command [BS] : Optional.empty
+2023-05-06 15:57:32.053 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 15:57:32.054 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[SamsungGalaxyS22BS_12V]
+2023-05-06 15:57:32.056 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 15:57:32.061 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - As BS user is null, running with default BS-user prasanjitkar_hG9efA
+2023-05-06 15:57:32.062 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - As BS key is null, running with default BS-key YrW4cdcwhQsxxSLWscj2
+2023-05-06 15:57:32.063 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 15:57:32.065 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 15:57:32.066 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 15:57:32.066 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 15:57:32.067 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 15:57:32.068 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 15:57:32.068 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 15:57:32.069 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : true
+2023-05-06 15:57:32.070 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 15:57:32.070 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 15:57:32.071 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 15:57:32.071 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 15:57:32.072 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 15:57:32.072 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : BrowserStack
+2023-05-06 15:57:32.073 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 15:57:32.073 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 15:57:32.074 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 15:57:32.074 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 15:57:32.074 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 15:57:32.075 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 15:57:32.075 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 15:57:32.076 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 15:57:32.076 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 15:57:32.077 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 15:57:32.078 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)MercuryFlutterAndroid_QA7App
+2023-05-06 15:57:32.079 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID 
+2023-05-06 15:57:32.080 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 12.0
+2023-05-06 15:57:32.081 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName Samsung Galaxy S22
+2023-05-06 15:57:32.082 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 15:57:32.083 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 15:57:32.084 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == https://prasanjitkar_hG9efA:YrW4cdcwhQsxxSLWscj2@hub-cloud.browserstack.com/wd/hub
+2023-05-06 15:57:43.338 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 15:57:43.392 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 15:57:49.659 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 15:57:49.661 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 15:57:49.696 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 15:57:49.697 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 15:57:49.796 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 15:57:49.839 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:57:49.840 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:40.783 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:40.880 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:42.106 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:42.107 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:42.909 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:42.911 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:43.626 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 15:59:43.673 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 15:59:43.716 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 15:59:43.717 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 15:59:43.718 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 15:59:45.612 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 15:59:45.614 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 15:59:45.615 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 15:59:45.617 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 15:59:45.618 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 15:59:45.619 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 15:59:45.620 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 15:59:45.623 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 15:59:45.624 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[SamsungGalaxyS22BS_12V]
+2023-05-06 15:59:45.648 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 15:59:45.706 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 15:59:45.717 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 15:59:45.728 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 15:59:45.729 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 15:59:45.730 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 15:59:45.730 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 15:59:45.731 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 15:59:45.731 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 15:59:45.732 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 15:59:45.733 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 15:59:45.733 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 15:59:45.734 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 15:59:45.735 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 15:59:45.736 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 15:59:45.736 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 15:59:45.737 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 15:59:45.737 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 15:59:45.738 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 15:59:45.738 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 15:59:45.739 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 15:59:45.739 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 15:59:45.740 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 15:59:45.740 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - apk : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 15:59:45.741 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 15:59:45.741 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 15:59:45.741 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 15:59:45.742 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 15:59:45.743 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID 
+2023-05-06 15:59:45.744 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 12.0
+2023-05-06 15:59:45.745 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName Samsung Galaxy S22
+2023-05-06 15:59:45.745 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 15:59:45.746 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 15:59:45.747 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == http://0.0.0.0:4723
+2023-05-06 16:00:03.966 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 16:00:04.037 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 16:00:10.437 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 16:00:10.438 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 16:00:10.484 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 16:00:10.485 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 16:00:10.589 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 16:00:10.639 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:00:10.640 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:14.242 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:14.263 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:14.922 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:14.923 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:15.206 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:15.207 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:15.465 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 16:09:15.496 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 16:09:15.513 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 16:09:15.514 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 16:09:15.515 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 16:09:16.480 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:16.481 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 16:09:16.481 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 16:09:16.482 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 16:09:16.483 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 16:09:16.484 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 16:09:16.484 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 16:09:16.486 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 16:09:16.487 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[SamsungGalaxyS22BS_12V]
+2023-05-06 16:09:16.499 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 16:09:16.524 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:09:16.532 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 16:09:16.533 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 16:09:16.533 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 16:09:16.534 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 16:09:16.534 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 16:09:16.534 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 16:09:16.535 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:09:16.535 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 16:09:16.536 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 16:09:16.536 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 16:09:16.536 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 16:09:16.537 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 16:09:16.537 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 16:09:16.537 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 16:09:16.538 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 16:09:16.538 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 16:09:16.538 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 16:09:16.539 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 16:09:16.539 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 16:09:16.539 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 16:09:16.539 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 16:09:16.540 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - apk : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:09:16.540 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 16:09:16.541 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 16:09:16.541 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 16:09:16.542 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:09:16.542 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID 
+2023-05-06 16:09:16.542 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 12.0
+2023-05-06 16:09:16.543 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName Samsung Galaxy S22
+2023-05-06 16:09:16.543 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 16:09:16.544 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 16:09:16.544 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == http://0.0.0.0:4723
+2023-05-06 16:09:26.491 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 16:09:26.534 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 16:09:32.287 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 16:09:32.288 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 16:09:32.305 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 16:09:32.305 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 16:09:32.354 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 16:09:32.379 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:09:32.380 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:30.818 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:30.889 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:31.750 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:31.750 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:32.264 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:32.264 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:32.697 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 16:10:32.741 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 16:10:32.765 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 16:10:32.766 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 16:10:32.767 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 16:10:33.997 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:10:33.998 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 16:10:33.999 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 16:10:34.000 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 16:10:34.000 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 16:10:34.001 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 16:10:34.002 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 16:10:34.005 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 16:10:34.005 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[SamsungLocal]
+2023-05-06 16:10:34.018 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 16:10:34.058 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:10:34.067 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 16:10:34.068 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 16:10:34.069 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 16:10:34.069 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 16:10:34.070 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 16:10:34.070 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 16:10:34.071 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:10:34.071 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 16:10:34.072 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 16:10:34.072 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 16:10:34.073 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 16:10:34.073 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 16:10:34.073 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 16:10:34.074 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 16:10:34.074 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 16:10:34.074 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 16:10:34.075 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 16:10:34.075 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 16:10:34.075 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 16:10:34.076 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 16:10:34.076 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 16:10:34.077 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - apk : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:10:34.078 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 16:10:34.079 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 16:10:34.079 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 16:10:34.086 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:10:34.088 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID 
+2023-05-06 16:10:34.088 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 13.0
+2023-05-06 16:10:34.089 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName emulator-5554
+2023-05-06 16:10:34.089 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 16:10:34.090 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 16:10:34.091 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == http://0.0.0.0:4723
+2023-05-06 16:11:51.135 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 16:11:51.205 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 16:11:58.230 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 16:11:58.232 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 16:11:58.295 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 16:11:58.314 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 16:11:58.567 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 16:11:58.648 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:11:58.649 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:08.068 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:08.088 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:08.620 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:08.621 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:09.038 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:09.040 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:09.436 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 16:14:09.462 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 16:14:09.477 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 16:14:09.478 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 16:14:09.479 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 16:14:10.524 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:10.525 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 16:14:10.526 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 16:14:10.527 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 16:14:10.528 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 16:14:10.529 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 16:14:10.530 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 16:14:10.532 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 16:14:10.533 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[SamsungLocal]
+2023-05-06 16:14:10.550 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 16:14:10.580 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:14:10.590 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 16:14:10.591 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 16:14:10.592 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 16:14:10.592 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 16:14:10.593 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 16:14:10.593 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 16:14:10.593 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:14:10.594 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 16:14:10.594 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 16:14:10.595 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 16:14:10.595 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 16:14:10.596 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 16:14:10.599 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 16:14:10.600 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 16:14:10.601 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 16:14:10.601 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 16:14:10.602 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 16:14:10.602 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 16:14:10.602 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 16:14:10.603 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 16:14:10.603 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 16:14:10.603 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - apk : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:14:10.604 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 16:14:10.604 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 16:14:10.604 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 16:14:10.605 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:14:10.605 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID 
+2023-05-06 16:14:10.606 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 13.0
+2023-05-06 16:14:10.606 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName emulator-5554
+2023-05-06 16:14:10.607 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 16:14:10.607 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 16:14:10.608 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == http://0.0.0.0:4723
+2023-05-06 16:14:49.370 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 16:14:49.409 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 16:14:55.344 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 16:14:55.346 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 16:14:55.367 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 16:14:55.369 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 16:14:55.428 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 16:14:55.455 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:14:55.456 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:14.518 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:14.537 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:15.519 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:15.521 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:15.977 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:15.978 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:16.378 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 16:30:16.421 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 16:30:16.439 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 16:30:16.441 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 16:30:16.441 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 16:30:17.704 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:17.705 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 16:30:17.706 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 16:30:17.708 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 16:30:17.708 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 16:30:17.710 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 16:30:17.712 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 16:30:17.717 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 16:30:17.719 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 16:30:17.737 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 16:30:17.772 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:30:17.779 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 16:30:17.782 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 16:30:17.783 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 16:30:17.784 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 16:30:17.784 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 16:30:17.785 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 16:30:17.785 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:30:17.786 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 16:30:17.786 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 16:30:17.787 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 16:30:17.787 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 16:30:17.787 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 16:30:17.788 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 16:30:17.788 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 16:30:17.789 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 16:30:17.789 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 16:30:17.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 16:30:17.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 16:30:17.791 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 16:30:17.792 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 16:30:17.792 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 16:30:17.793 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - apk : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:30:17.794 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 16:30:17.795 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 16:30:17.796 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 16:30:17.796 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:30:17.797 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 16:30:17.799 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 16:30:17.800 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 16:30:17.801 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 16:30:17.802 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 16:30:17.802 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == http://0.0.0.0:4723
+2023-05-06 16:30:26.467 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 16:30:26.507 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 16:30:32.398 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 16:30:32.399 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 16:30:32.422 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 16:30:32.423 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 16:30:32.470 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 16:30:32.495 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:30:32.496 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:03.308 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:03.364 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:03.861 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:03.862 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:04.262 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:04.263 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:04.601 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 16:31:04.638 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 16:31:04.674 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 16:31:04.675 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 16:31:04.676 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 16:31:06.695 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:06.696 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 16:31:06.697 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 16:31:06.698 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : ANDROID
+2023-05-06 16:31:06.698 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 16:31:06.699 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 16:31:06.700 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 16:31:06.703 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 16:31:06.704 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 16:31:06.728 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 16:31:06.855 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:31:06.868 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 16:31:06.875 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 16:31:06.875 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 16:31:06.877 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 16:31:06.881 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 16:31:06.881 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 16:31:06.882 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:31:06.885 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 16:31:06.886 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 16:31:06.887 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 16:31:06.888 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 16:31:06.888 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 16:31:06.889 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 16:31:06.889 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 16:31:06.889 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 16:31:06.890 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 16:31:06.890 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 16:31:06.891 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : ANDROID_APP
+2023-05-06 16:31:06.891 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 16:31:06.892 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 16:31:06.892 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 16:31:06.892 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - apk : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:31:06.893 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 16:31:06.894 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 16:31:06.894 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 16:31:06.895 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:31:06.896 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 16:31:06.897 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 16:31:06.897 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 16:31:06.898 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 16:31:06.899 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Android driver intialization starts... 
+2023-05-06 16:31:06.900 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppiumServerURL == http://0.0.0.0:4723
+2023-05-06 16:31:35.766 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Unable to create a proxy of io.appium.java_client.android.AndroidDriver
+2023-05-06 16:31:35.793 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 16:31:41.461 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 16:31:41.462 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 16:31:41.478 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 16:31:41.479 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 16:31:41.516 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 16:31:41.537 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:31:41.537 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:15.010 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:15.058 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:15.488 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:15.489 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:15.807 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:15.808 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:16.087 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 16:32:16.106 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 16:32:16.124 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 16:32:16.125 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 16:32:16.126 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 16:32:16.987 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:16.988 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 16:32:16.988 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 16:32:16.989 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : iOS
+2023-05-06 16:32:16.989 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 16:32:16.990 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 16:32:16.991 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 16:32:16.993 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 16:32:16.994 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 16:32:17.006 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 16:32:17.033 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:32:17.038 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 16:32:17.039 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 16:32:17.040 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 16:32:17.040 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 16:32:17.040 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 16:32:17.040 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 16:32:17.041 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile
+2023-05-06 16:32:17.041 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 16:32:17.042 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 16:32:17.042 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 16:32:17.042 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 16:32:17.042 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 16:32:17.043 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 16:32:17.043 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 16:32:17.043 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 16:32:17.044 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 16:32:17.044 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 16:32:17.044 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : iOS_APP
+2023-05-06 16:32:17.044 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 16:32:17.045 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 16:32:17.045 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 16:32:17.045 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - apk : /Users/ostan/Documents/Automation/gestureAutomate/build/app/outputs/apk/profile/app-profile.apk
+2023-05-06 16:32:17.045 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 16:32:17.046 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 16:32:17.046 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 16:32:17.046 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)null
+2023-05-06 16:32:17.047 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 16:32:17.047 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 16:32:17.047 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 16:32:17.048 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 16:32:17.383 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:17.383 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:17.384 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:32:17.385 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:37:18.355 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Unable to start WebDriverAgent session because of xcodebuild failure: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8100 
+Host info: host: 'Ostans-MacBook-Pro-3.local', ip: 'fe80:0:0:0:41:9559:d8a:f409%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, newSession {capabilities=[{appium:waitForAppScript=$.delay(8000);$.acceptAlert(), appium:browserstack.appium_version=2.0.0, appium:xcodeOrgId=Null, appium:newCommandTimeout=180, appium:browserstack.networkLogs=true, appium:buildName=Mercury_QA, appium:eventTimings=true, appium:autoAcceptAlerts=true, appium:bundleID=com.example.gesture-automate, appium:automationName=FLUTTER, appium:platformVersion=16.0, appium:noReset=false, appium:udid=CFB3C3A2-24DF-4C07-9591-B0D321876CB8, appium:browserstack.debug=true, appium:browserstack.local=true, appium:name=Flutter Test, appium:locationServicesAuthorized=true, appium:xcodeSigningId=Null, appium:deviceName=iPhone 14, platformName=IOS}], desiredCapabilities=Capabilities {appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:deviceName: iPhone 14, appium:eventTimings: true, appium:locationServicesAuthorized: true, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noReset: false, appium:platformVersion: 16.0, appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}}]
+Capabilities {appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:deviceName: iPhone 14, appium:eventTimings: true, appium:locationServicesAuthorized: true, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noReset: false, appium:platformVersion: 16.0, appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}
+2023-05-06 16:37:18.401 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 16:37:24.030 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 16:37:24.031 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 16:37:24.048 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 16:37:24.049 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 16:37:24.095 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 16:37:24.125 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 16:37:24.126 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:46.023 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:46.048 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:46.719 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:46.721 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:47.202 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:47.203 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:47.447 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 17:05:47.464 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 17:05:47.474 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 17:05:47.475 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 17:05:47.475 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 17:05:48.915 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:48.916 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 17:05:48.916 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 17:05:48.917 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : iOS
+2023-05-06 17:05:48.917 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 17:05:48.918 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 17:05:48.919 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 17:05:48.921 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 17:05:48.924 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 17:05:48.941 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 17:05:48.972 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:05:48.982 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 17:05:48.984 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 17:05:48.984 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - app : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:05:48.985 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 17:05:48.986 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 17:05:48.986 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 17:05:48.987 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 17:05:48.987 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:05:48.988 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 17:05:48.988 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 17:05:48.990 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 17:05:48.991 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 17:05:48.991 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 17:05:48.992 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 17:05:48.992 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 17:05:48.993 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 17:05:48.993 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 17:05:48.994 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 17:05:48.994 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : iOS_APP
+2023-05-06 17:05:48.994 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 17:05:48.995 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 17:05:48.995 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 17:05:48.995 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 17:05:48.996 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 17:05:48.996 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 17:05:48.997 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:05:48.997 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 17:05:48.998 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 17:05:48.998 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 17:05:48.999 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 17:05:49.527 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:49.529 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:49.530 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:05:49.530 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:11:04.274 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Unable to start WebDriverAgent session because of xcodebuild failure: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8100 
+Host info: host: 'Ostans-MacBook-Pro-3.local', ip: 'fe80:0:0:0:41:9559:d8a:f409%en0'
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, newSession {capabilities=[{appium:waitForAppScript=$.delay(8000);$.acceptAlert(), appium:browserstack.appium_version=2.0.0, appium:xcodeOrgId=Null, appium:newCommandTimeout=180, appium:browserstack.networkLogs=true, appium:buildName=Mercury_QA, appium:eventTimings=true, appium:autoAcceptAlerts=true, appium:bundleID=com.example.gesture-automate, appium:automationName=FLUTTER, appium:platformVersion=16.0, appium:noReset=false, appium:udid=CFB3C3A2-24DF-4C07-9591-B0D321876CB8, appium:browserstack.debug=true, appium:browserstack.local=true, appium:name=Flutter Test, appium:locationServicesAuthorized=true, appium:xcodeSigningId=Null, appium:deviceName=iPhone 14, platformName=IOS, appium:app=/Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app}], desiredCapabilities=Capabilities {appium:app: /Users/ostan/Documents/Auto..., appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:deviceName: iPhone 14, appium:eventTimings: true, appium:locationServicesAuthorized: true, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noReset: false, appium:platformVersion: 16.0, appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}}]
+Capabilities {appium:app: /Users/ostan/Documents/Auto..., appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:deviceName: iPhone 14, appium:eventTimings: true, appium:locationServicesAuthorized: true, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noReset: false, appium:platformVersion: 16.0, appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}
+2023-05-06 17:11:04.360 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 17:11:10.859 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 17:11:10.862 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 17:11:10.893 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 17:11:10.894 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 17:11:11.066 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 17:11:11.146 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:11:11.150 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:05.667 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:05.704 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:05.941 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:05.941 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:06.116 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:06.117 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:06.270 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 17:17:06.282 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 17:17:06.289 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 17:17:06.289 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 17:17:06.290 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 17:17:06.751 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:06.752 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 17:17:06.752 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 17:17:06.752 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : iOS
+2023-05-06 17:17:06.753 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 17:17:06.753 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 17:17:06.753 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 17:17:06.754 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 17:17:06.755 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 17:17:06.766 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 17:17:06.782 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:17:06.786 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 17:17:06.787 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 17:17:06.788 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - app : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:17:06.788 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 17:17:06.788 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 17:17:06.788 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 17:17:06.789 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 17:17:06.789 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:17:06.789 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 17:17:06.789 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 17:17:06.789 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 17:17:06.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 17:17:06.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 17:17:06.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 17:17:06.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 17:17:06.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 17:17:06.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 17:17:06.790 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 17:17:06.791 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : iOS_APP
+2023-05-06 17:17:06.791 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 17:17:06.791 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 17:17:06.791 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 17:17:06.791 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 17:17:06.792 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 17:17:06.792 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 17:17:06.792 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:17:06.792 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 17:17:06.793 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 17:17:06.793 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 17:17:06.793 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 17:17:06.969 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:06.969 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:06.969 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:17:06.970 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:19:36.048 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Ostans-MacBook-Pro-3.local', ip: 'fe80:0:0:0:41:9559:d8a:f409%en0'
+2023-05-06 17:19:36.093 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 17:19:36.934 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 17:19:36.936 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 17:19:36.954 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 17:19:36.955 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 17:19:37.009 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 17:19:37.036 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:19:37.036 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:47.309 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:47.344 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:47.602 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:47.602 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:47.778 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:47.779 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:47.942 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 17:23:47.956 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 17:23:47.965 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 17:23:47.966 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 17:23:47.967 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 17:23:48.404 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:48.404 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 17:23:48.404 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 17:23:48.405 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : iOS
+2023-05-06 17:23:48.405 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 17:23:48.406 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 17:23:48.406 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 17:23:48.407 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 17:23:48.408 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 17:23:48.418 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 17:23:48.436 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:23:48.439 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 17:23:48.440 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 17:23:48.441 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - app : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:23:48.441 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 17:23:48.441 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 17:23:48.441 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 17:23:48.442 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 17:23:48.442 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:23:48.442 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 17:23:48.442 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 17:23:48.442 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 17:23:48.443 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 17:23:48.443 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 17:23:48.443 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 17:23:48.443 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 17:23:48.443 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 17:23:48.444 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 17:23:48.444 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 17:23:48.444 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : iOS_APP
+2023-05-06 17:23:48.444 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 17:23:48.444 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 17:23:48.444 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 17:23:48.445 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 17:23:48.445 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 17:23:48.445 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 17:23:48.445 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:23:48.445 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 17:23:48.446 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 17:23:48.446 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 17:23:48.446 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 17:23:48.644 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:48.644 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:48.645 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:48.645 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:50.776 [main] ERROR com.codecraft.flutter.utils.InitiateDriver - Exception thrown while creating driver instance. Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Ostans-MacBook-Pro-3.local', ip: 'fe80:0:0:0:41:9559:d8a:f409%en0'
+2023-05-06 17:23:50.805 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in beforeSuite 
+2023-05-06 17:23:51.340 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 17:23:51.341 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: tapTestcase
+2023-05-06 17:23:51.355 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 17:23:51.355 [main] INFO  com.codecraft.flutter.testNG.TestListener - Skipped Test: doubleTestcase
+2023-05-06 17:23:51.394 [main] ERROR com.codecraft.flutter.frameWork.TestBase - Failure in afterSuite 
+2023-05-06 17:23:51.416 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:23:51.417 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:10.837 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:10.844 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.009 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.009 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.137 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.137 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.244 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 17:25:11.254 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 17:25:11.259 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 17:25:11.259 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 17:25:11.259 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 17:25:11.639 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.639 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 17:25:11.640 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 17:25:11.640 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : iOS
+2023-05-06 17:25:11.640 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 17:25:11.640 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 17:25:11.641 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 17:25:11.642 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 17:25:11.642 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 17:25:11.649 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 17:25:11.661 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:25:11.663 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 17:25:11.664 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 17:25:11.664 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - app : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 17:25:11.665 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 17:25:11.666 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : iOS_APP
+2023-05-06 17:25:11.667 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 17:25:11.667 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 17:25:11.667 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 17:25:11.667 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 17:25:11.667 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 17:25:11.667 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 17:25:11.668 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:25:11.668 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 17:25:11.668 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 17:25:11.669 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 17:25:11.669 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 17:25:11.790 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.791 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.791 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:11.791 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:25.209 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - get by Thread 1 - IOSDriver:  on IOS (d4d44486-2fcc-4f12-921b-f55d0a95a9ba)
+2023-05-06 17:25:25.546 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 17:25:25.673 [main] ERROR com.codecraft.flutter.testNG.TestListener - Failed to capture screenshot org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: {"code":-32000,"message":"Could not capture image screenshot."}
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d4d44486-2fcc-4f12-921b-f55d0a95a9ba, screenshot {}]
+Capabilities {appium:address: 0.0.0.0, appium:allowCors: false, appium:allowInsecure: [], appium:app: /Users/ostan/Documents/Auto..., appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:basePath: , appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:callbackPort: 4723, appium:debugLogSpacing: false, appium:denyInsecure: [], appium:deviceName: iPhone 14, appium:driver: {xcuitest: {wdaLocalPort: 8100}}, appium:eventTimings: true, appium:extraArgs: [], appium:fastReset: true, appium:keepAliveTimeout: 600, appium:localTimezone: false, appium:locationServicesAuthorized: true, appium:logNoColors: false, appium:logTimestamp: false, appium:loglevel: debug, appium:longStacktrace: false, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noPermsCheck: false, appium:noReset: false, appium:platformVersion: 16.0, appium:port: 4723, appium:relaxedSecurityEnabled: false, appium:sessionOverride: false, appium:skipUninstall: true, appium:strictCaps: false, appium:subcommand: server, appium:tmpDir: /var/folders/h2/7jxd5fsj79l..., appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:useDrivers: [], appium:usePlugins: [], appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}
+Session ID: d4d44486-2fcc-4f12-921b-f55d0a95a9ba
+2023-05-06 17:25:26.070 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 17:25:26.097 [main] ERROR com.codecraft.flutter.testNG.TestListener - Failed to capture screenshot org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: {"code":-32000,"message":"Could not capture image screenshot."}
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [d4d44486-2fcc-4f12-921b-f55d0a95a9ba, screenshot {}]
+Capabilities {appium:address: 0.0.0.0, appium:allowCors: false, appium:allowInsecure: [], appium:app: /Users/ostan/Documents/Auto..., appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:basePath: , appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:callbackPort: 4723, appium:debugLogSpacing: false, appium:denyInsecure: [], appium:deviceName: iPhone 14, appium:driver: {xcuitest: {wdaLocalPort: 8100}}, appium:eventTimings: true, appium:extraArgs: [], appium:fastReset: true, appium:keepAliveTimeout: 600, appium:localTimezone: false, appium:locationServicesAuthorized: true, appium:logNoColors: false, appium:logTimestamp: false, appium:loglevel: debug, appium:longStacktrace: false, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noPermsCheck: false, appium:noReset: false, appium:platformVersion: 16.0, appium:port: 4723, appium:relaxedSecurityEnabled: false, appium:sessionOverride: false, appium:skipUninstall: true, appium:strictCaps: false, appium:subcommand: server, appium:tmpDir: /var/folders/h2/7jxd5fsj79l..., appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:useDrivers: [], appium:usePlugins: [], appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}
+Session ID: d4d44486-2fcc-4f12-921b-f55d0a95a9ba
+2023-05-06 17:25:27.294 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:25:27.295 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:18.793 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:18.808 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:19.349 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:19.352 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:20.016 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:20.017 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:20.441 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 17:34:20.481 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 17:34:20.496 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 17:34:20.497 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 17:34:20.497 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 17:34:21.496 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:21.498 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 17:34:21.498 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 17:34:21.500 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : iOS
+2023-05-06 17:34:21.501 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 17:34:21.502 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 17:34:21.503 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 17:34:21.508 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 17:34:21.510 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 17:34:21.527 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 17:34:21.555 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:34:21.566 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 17:34:21.568 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 17:34:21.568 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - app : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:34:21.569 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 17:34:21.569 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 17:34:21.569 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 17:34:21.570 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 17:34:21.572 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:34:21.573 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 17:34:21.573 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 17:34:21.573 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 17:34:21.574 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 17:34:21.574 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 17:34:21.574 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 17:34:21.575 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 17:34:21.575 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 17:34:21.576 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 17:34:21.576 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 17:34:21.576 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : iOS_APP
+2023-05-06 17:34:21.576 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 17:34:21.577 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 17:34:21.577 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 17:34:21.578 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 17:34:21.578 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 17:34:21.578 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 17:34:21.579 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:34:21.582 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 17:34:21.583 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 17:34:21.584 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 17:34:21.585 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 17:34:21.913 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:21.915 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:21.916 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:34:21.916 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:35:04.535 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - get by Thread 1 - IOSDriver:  on IOS (80ad4eb6-debb-4218-b076-e397294b3ed2)
+2023-05-06 17:35:05.473 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 17:35:05.647 [main] ERROR com.codecraft.flutter.testNG.TestListener - Failed to capture screenshot org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: {"code":-32000,"message":"Could not capture image screenshot."}
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '11.0.16'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [80ad4eb6-debb-4218-b076-e397294b3ed2, screenshot {}]
+Capabilities {appium:address: 0.0.0.0, appium:allowCors: false, appium:allowInsecure: [], appium:app: /Users/ostan/Documents/Auto..., appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:basePath: , appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:callbackPort: 4723, appium:debugLogSpacing: false, appium:denyInsecure: [], appium:deviceName: iPhone 14, appium:driver: {xcuitest: {wdaLocalPort: 8100}}, appium:eventTimings: true, appium:extraArgs: [], appium:fastReset: true, appium:keepAliveTimeout: 600, appium:localTimezone: false, appium:locationServicesAuthorized: true, appium:logNoColors: false, appium:logTimestamp: false, appium:loglevel: debug, appium:longStacktrace: false, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noPermsCheck: false, appium:noReset: false, appium:platformVersion: 16.0, appium:port: 4723, appium:relaxedSecurityEnabled: false, appium:sessionOverride: false, appium:skipUninstall: true, appium:strictCaps: false, appium:subcommand: server, appium:tmpDir: /var/folders/h2/7jxd5fsj79l..., appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:useDrivers: [], appium:usePlugins: [], appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}
+Session ID: 80ad4eb6-debb-4218-b076-e397294b3ed2
+2023-05-06 17:35:06.601 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 17:35:06.674 [main] ERROR com.codecraft.flutter.testNG.TestListener - Failed to capture screenshot org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: {"code":-32000,"message":"Could not capture image screenshot."}
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '11.0.16'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [80ad4eb6-debb-4218-b076-e397294b3ed2, screenshot {}]
+Capabilities {appium:address: 0.0.0.0, appium:allowCors: false, appium:allowInsecure: [], appium:app: /Users/ostan/Documents/Auto..., appium:autoAcceptAlerts: true, appium:automationName: FLUTTER, appium:basePath: , appium:browserstack.appium_version: 2.0.0, appium:browserstack.debug: true, appium:browserstack.local: true, appium:browserstack.networkLogs: true, appium:buildName: Mercury_QA, appium:bundleID: com.example.gesture-automate, appium:callbackPort: 4723, appium:debugLogSpacing: false, appium:denyInsecure: [], appium:deviceName: iPhone 14, appium:driver: {xcuitest: {wdaLocalPort: 8100}}, appium:eventTimings: true, appium:extraArgs: [], appium:fastReset: true, appium:keepAliveTimeout: 600, appium:localTimezone: false, appium:locationServicesAuthorized: true, appium:logNoColors: false, appium:logTimestamp: false, appium:loglevel: debug, appium:longStacktrace: false, appium:name: Flutter Test, appium:newCommandTimeout: 180, appium:noPermsCheck: false, appium:noReset: false, appium:platformVersion: 16.0, appium:port: 4723, appium:relaxedSecurityEnabled: false, appium:sessionOverride: false, appium:skipUninstall: true, appium:strictCaps: false, appium:subcommand: server, appium:tmpDir: /var/folders/h2/7jxd5fsj79l..., appium:udid: CFB3C3A2-24DF-4C07-9591-B0D..., appium:useDrivers: [], appium:usePlugins: [], appium:waitForAppScript: $.delay(8000);$.acceptAlert(), appium:xcodeOrgId: Null, appium:xcodeSigningId: Null, platformName: IOS}
+Session ID: 80ad4eb6-debb-4218-b076-e397294b3ed2
+2023-05-06 17:35:08.316 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:35:08.317 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:40.380 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:40.391 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:40.743 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:40.743 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:40.991 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:40.991 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:41.226 [main] INFO  com.codecraft.flutter.frameWork.TestBase - LOCAL_TESTING false
+2023-05-06 17:40:41.258 [main] INFO  com.codecraft.flutter.testNG.TestListener - Started: 
+2023-05-06 17:40:41.273 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Parallel/Sequential : none
+2023-05-06 17:40:41.273 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Execution Flag is : Concurrent
+2023-05-06 17:40:41.274 [main] INFO  com.codecraft.flutter.frameWork.TestBase - Creating an instance for driver...
+2023-05-06 17:40:42.071 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:42.072 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : Local
+2023-05-06 17:40:42.074 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Local Machine OS :Mac OS X
+2023-05-06 17:40:42.075 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - runON : iOS
+2023-05-06 17:40:42.076 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Context == FLUTTER
+2023-05-06 17:40:42.076 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Setup(local/Browserstack) : false
+2023-05-06 17:40:42.078 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of environment tag to execute simulator in Maven command : Optional.empty
+2023-05-06 17:40:42.080 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Virtual device activated from TestNG.xml
+2023-05-06 17:40:42.081 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Inclusion of parameter tag to execute simulator in TestNG.xml : Optional[IphoneLocal]
+2023-05-06 17:40:42.092 [main] INFO  com.codecraft.flutter.utils.ReadJson - JSON File named passed : device_conf.json
+2023-05-06 17:40:42.117 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Identified path to pick app/ipa file - /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:40:42.125 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - Configuration values.....{
+2023-05-06 17:40:42.126 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SeverAddress : http://0.0.0.0:4723
+2023-05-06 17:40:42.126 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - app : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:40:42.126 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - TestName : Flutter Test
+2023-05-06 17:40:42.126 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - lastName : SMITH
+2023-05-06 17:40:42.127 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BROWSER : Firefox
+2023-05-06 17:40:42.127 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - PROXY : false
+2023-05-06 17:40:42.127 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppPath : /Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator
+2023-05-06 17:40:42.128 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - LOCAL_TESTING : false
+2023-05-06 17:40:42.128 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - policyNumber : AZHP0530002656
+2023-05-06 17:40:42.128 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ENV : prod
+2023-05-06 17:40:42.128 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - CONTEXT : FLUTTER
+2023-05-06 17:40:42.128 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - URL : http://127.0.0.1:4444/wd/hub
+2023-05-06 17:40:42.129 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppActivity : com.example.gesture_automate.MainActivity
+2023-05-06 17:40:42.129 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - SETUP : Local
+2023-05-06 17:40:42.129 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - firstName : STEV
+2023-05-06 17:40:42.129 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - BundleId : com.example.gesture-automate
+2023-05-06 17:40:42.130 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - password : Circle-1
+2023-05-06 17:40:42.130 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - RUN_ON : iOS_APP
+2023-05-06 17:40:42.130 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ReportTitle : Flutter Test Report
+2023-05-06 17:40:42.131 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AndroidAppPackage : com.example.gesture_automate
+2023-05-06 17:40:42.131 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - dob : 01/01/1990
+2023-05-06 17:40:42.131 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - email : johnetgandalf1@test.com
+2023-05-06 17:40:42.131 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - }
+2023-05-06 17:40:42.131 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - ****Configuration values of  app testing****
+2023-05-06 17:40:42.132 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AppURL(path to app)/Users/ostan/Documents/Automation/gestureAutomate/build/ios/iphonesimulator/Runner.app
+2023-05-06 17:40:42.132 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceID CFB3C3A2-24DF-4C07-9591-B0D321876CB8
+2023-05-06 17:40:42.133 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - OS version 16.0
+2023-05-06 17:40:42.133 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - DeviceName iPhone 14
+2023-05-06 17:40:42.133 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - AutomationName FLUTTER
+2023-05-06 17:40:42.382 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:42.383 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:42.383 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:40:42.384 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:41:12.484 [main] INFO  com.codecraft.flutter.utils.InitiateDriver - get by Thread 1 - IOSDriver:  on IOS (2c26031c-a32c-407c-8e35-5e47dbbd3586)
+2023-05-06 17:41:13.109 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: tapTestcase
+2023-05-06 17:41:22.321 [main] INFO  com.codecraft.flutter.testNG.TestListener - Test Case Started: doubleTestcase
+2023-05-06 17:41:58.533 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed
+2023-05-06 17:41:58.534 [main] INFO  com.codecraft.flutter.utils.PropertyReader - getPropValuesis executed

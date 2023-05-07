@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- The Basics. Project related information -->
+    <name>FlutterFramework</name>
+    <organization>
+        <name>CodeCraft</name>
+        <url>https://www.codecrafttech.com/</url>
+    </organization>
+    <groupId>com.codecraft.flutter</groupId>
+    <artifactId>flutter_framework</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+
+
+    <!-- Properties  ######### Section to update values ##################
+    | Recommended to modify values to compile project on different version than current one
+    | <jdk.source.version> - version of source accepted [ 14]
+    | <jdk.target.version> - class files will run on specified target [14] and later versions
+    | <maven.compiler.release> - Recommended than <maven.compiler.source> and <maven.compiler.target>
+                                 as API is taken into consideration being compatible.Until and unless
+                                  coding is not build using JAVA 14, one can be confident to modify value.
+    | <skipTests> is set to false by default[ Test gets compiled]. Provided the ability to disable-enable tests from
+      the command line. Now maven compile and execute 'Tests.
+    | <defaultSuiteFiles>- pass the path to xml that is most frequently executed or default xml.
+    | <suiteFile>- accepts the xml passed via maven command.
+    -->
+    <properties>
+        <defaultSuiteFiles>src/test/java/com/codecraft/flutter/CC_TestNG.xml</defaultSuiteFiles>
+        <suiteFile>${defaultSuiteFiles}</suiteFile>
+        <maven.compiler.release>11</maven.compiler.release>
+        <!-- JDK source and target created for com.browserstack plugin -->
+        <jdk.source.version>11</jdk.source.version>
+        <jdk.target.version>11</jdk.target.version>
+        <skipTests>false</skipTests>
+        <allure.version>2.13.2</allure.version>
+        <testng.version>7.7.0</testng.version>
+        <aspectj.version>1.9.7</aspectj.version>
+        <java.client.appium>8.3.0</java.client.appium>
+        <selenium.version>4.7.1</selenium.version>
+        <kotlin.version>1.3.70</kotlin.version>
+        <allure.results.directory>target/allure-results</allure.results.directory>
+        <allure.report.directory>target/allure-reports</allure.report.directory>
+    </properties>
+
+
+    <!--- STRICTLY READ ONLY ACCESS -->
+    <!-- Profile to run at various configuration -->
+    <profiles>
+        <profile>
+            <id>android</id>
+            <activation>
+                <!-- this profile is active by default -->
+<!--                <activeByDefault>true</activeByDefault>-->
+                <property>
+                    <name>device</name>
+                    <value>android</value>
+                </property>
+            </activation>
+            <properties>
+                <RunOn_value>ANDROID_APP</RunOn_value>
+                <Context_value>FLUTTER</Context_value>
+                <Setup_value>Local</Setup_value>
+                <Local_value>false</Local_value>
+            </properties>
+        </profile>
+        <profile>
+            <id>iOS</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <property>
+                    <name>device</name>
+                    <value>iOS</value>
+                </property>
+            </activation>
+            <properties>
+                <RunOn_value>iOS_APP</RunOn_value>
+                <Context_value>FLUTTER</Context_value>
+                <Setup_value>Local</Setup_value>
+                <Local_value>false</Local_value>
+            </properties>
+        </profile>
+        <profile>
+            <id>bsAndroid</id>
+            <activation>
+                <property>
+                    <name>device</name>
+                    <value>bsAndroid</value>
+                </property>
+            </activation>
+            <properties>
+                <RunOn_value>ANDROID_APP</RunOn_value>
+                <Context_value>FLUTTER</Context_value>
+                <Setup_value>BrowserStack</Setup_value>
+            </properties>
+        </profile>
+        <profile>
+            <id>bsiOS</id>
+            <activation>
+                <!-- activate if system properties 'env=prod' -->
+                <property>
+                    <name>device</name>
+                    <value>bsiOS</value>
+                </property>
+            </activation>
+            <properties>
+                <RunOn_value>iOS_APP</RunOn_value>
+                <Context_value>FLUTTER</Context_value>
+                <Setup_value>BrowserStack</Setup_value>
+            </properties>
+        </profile>
+    </profiles>
+
+    <!-- Dependency list -->
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-test</artifactId>
+            <version>${kotlin.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-serialization-runtime</artifactId>
+            <version>0.20.0</version>
+            <!--                        <scope>runtime</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-reflect</artifactId>
+            <version>${kotlin.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>${java.client.appium}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <!--            <scope>test</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.23.1-GA</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp</groupId>
+            <artifactId>okhttp-ws</artifactId>
+            <version>2.7.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-maven</artifactId>
+            <version>2.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-attachments</artifactId>
+            <version>${allure.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.21</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mailapi</artifactId>
+            <version>1.4.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.15.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.browserstack</groupId>
+            <artifactId>browserstack-local-java</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-maven-plugin</artifactId>
+            <version>${kotlin.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+
+
+    <!-- Build settings -->
+    <build>
+        <!--Maven will look for project resources in this path
+        | <filtering>true: Variables can be included in your resources. These variables, denoted by the ${...}
+        |  delimiters, can come from the system properties, your project properties, from your filter resources
+        |  and from the command line.
+        |  Resources are not usually code. They are not compiled, but are items meant to be bundled within your project
+        -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+
+            <!-- Browser Maven Plugin-->
+            <plugin>
+                <groupId>com.browserstack</groupId>
+                <artifactId>automate-maven-plugin</artifactId>
+                <version>1.1.1</version>
+                <configuration>
+                    <source>${jdk.source.version}</source>
+                    <target>${jdk.target.version}</target>
+                    <complianceLevel>${jdk.source.version}</complianceLevel>
+                </configuration>
+            </plugin>
+
+            <!--        The kotlin-maven-plugin compiles Kotlin sources and modules.
+                        kotlin-maven-plugin should be run before maven-compiler-plugin-->
+            <plugin>
+                <artifactId>kotlin-maven-plugin</artifactId>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <version>${kotlin.version}</version>
+                <executions>
+                    <execution>
+                        <id>compile</id>
+                        <goals> <goal>compile</goal> </goals>
+                        <configuration>
+                            <args>
+                                <arg>-Xopt-in=kotlin.RequiresOptIn</arg>
+                            </args>
+                            <sourceDirs>
+                                <sourceDir>${project.basedir}/src/main/kotlin</sourceDir>
+                                <sourceDir>${project.basedir}/src/main/java</sourceDir>
+                            </sourceDirs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Compiler plugin to compile the sources of project -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <release>${maven.compiler.release}</release>
+                    <source>${jdk.source.version}</source>
+                    <target>${jdk.source.version}</target>
+                </configuration>
+                <executions>
+                    <!-- Replacing default-compile as it is treated specially by maven -->
+                    <execution>
+                        <id>default-compile</id>
+                        <phase>none</phase>
+                    </execution>
+                    <!-- Replacing default-testCompile as it is treated specially by maven -->
+                    <execution>
+                        <id>default-testCompile</id>
+                        <phase>none</phase>
+                    </execution>
+                    <execution>
+                        <id>java-compile</id>
+                        <phase>compile</phase>
+                        <goals> <goal>compile</goal> </goals>
+                    </execution>
+                    <execution>
+                        <id>java-test-compile</id>
+                        <phase>test-compile</phase>
+                        <goals> <goal>testCompile</goal> </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- * SureFire plugin to execute tests with provider as "TestNG" added in dependency.
+            |    * Executed at test phase
+            |    * Test.xml is generated in target folder
+            |    * executed using mvn test command
+            |    * SkipTest is set to false by default. Tests gets executed during compilation.
+            |    * With Junit not added as a dependency, I've removed the property specified
+            |      junit = false [One may want to run two providers, e.g. surefire-junit47 and surefire-testng,
+            |      and avoid running JUnit tests within surefire-testng provider by setting property junit=false.]
+            |     *testFailureIgnore :true ->compile test classes but not fail the build due to any test errors.
+            |     * <suitXmlFile> accepts values passed via maven command -Dsuite....
+            -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${suiteFile}</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <skipTests>false</skipTests>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"
+                    </argLine>
+                    <systemProperties>
+                        <property>
+                            <!-- Path to prepare allure report from allure results -->
+                            <name>allure.results.directory</name>
+                            <value>target/allure-results</value>
+                        </property>
+                    </systemProperties>
+
+                    <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>io.qameta.allure.testng.AllureTestNg,com.mobile.mercury.TestNG.TestListener</value>
+                        </property>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value> <!-- disabling default listeners is optional -->
+                        </property>
+                    </properties>
+
+                </configuration>
+            </plugin>
+            <!--Maven.help.plugin to get relative information about project or system -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-help-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <id>show-profiles</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>active-profiles</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.9.1</version>
+                <configuration>
+                    <!-- true will prevent allure report generation on site phase -->
+                    <skip>false</skip>
+                    <skipDeploy>false</skipDeploy>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+    <!-- Corresponds to site generation phase -->
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.12.0</version>
+                <configuration>
+                    <outputDirectory>${allure.report.directory}</outputDirectory>
+                    <resultsDirectory>${allure.results.directory}</resultsDirectory>
+                    <reportingOutputDirectory>${allure.report.directory}</reportingOutputDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+</project>

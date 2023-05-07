@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flutter Mobile Automation "  verbose="1" preserve-order="true" thread-count="1"  parallel="false">
+<listeners>
+    <listener class-name="com.codecraft.flutter.testNG.EmailableTestNGReport"></listener>
+    <listener class-name="com.codecraft.flutter.testNG.TestListener"></listener>
+
+</listeners>
+
+    <parameter name="environment" value="IphoneLocal"/>
+    <!--<parameter name="environment" value="IPhone14BS_16V"/>-->
+
+    <test name="FLUTTER-1: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.tapTest.TapTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-2: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.carouselTest.CarouselTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-3: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.doubleTapTest.DoubleTapTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-4: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.DragNDropTest.DragNDropTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-5: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.FormsTest.FromsTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-6: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.LongPressTest.LongPressTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-7: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.ScrollTest.ScrollTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-8: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.SlideTest.SliderTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-9: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.SwipeTest.SwipeTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-10: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.TimerTest.TimerTest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-11: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.UPITest.UPITest"/>
+        </classes>
+    </test>
+    <test name="FLUTTER-12: Regression" preserve-order="true" parallel="false" enabled ="true">
+        <classes>
+            <class name="com.codecraft.flutter.WebViewTest.WebViewTest"/>
+        </classes>
+    </test>
+
+</suite>

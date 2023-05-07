@@ -1,0 +1,129 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "prasanjitkar_hG9efA",
+  "key": "YrW4cdcwhQsxxSLWscj2",
+
+  "capabilities": {
+    "name": "Mercury Tests",
+    "browserstack.debug": true,
+    "AndroidID": "MercuryFlutterAndroid_QA7App",
+    "iOSID": "MercuryFlutterIOS_QA7App"
+  },
+
+  "environments": {
+    "samsung_s10(9.0)": {
+      "device": "Samsung Galaxy S10",
+      "os": "9.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "samsung_s9": {
+      "device": "Samsung Galaxy S9",
+      "os": "8.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "samsung_s20(10.0)": {
+      "device": "Samsung Galaxy S20",
+      "os": "10.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "oneplus_7(9.0)": {
+      "device": "OnePLus 7",
+      "os": "9.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "oneplus_7(13.0)": {
+      "device": "OnePLus 7",
+      "os": "13.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "Iphone_Sim(13.3)": {
+      "device": "Iphone 11 Pro",
+      "os": "13.3",
+      "runon": "IOS_APP",
+      "deviceid": "DF55EE8C-7749-4C9F-861A-DBBE279BF3C0"
+    },
+    "IPhoneRealDevice": {
+      "device": "Iphone 12",
+      "os": "15.4.1",
+      "runon": "IOS_APP",
+      "deviceid": "00008101-001170242E43001E"
+    },
+    "AndroidRealDevice": {
+      "device": "3B24FAAF783A16CF",
+      "os": "12.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "SamsungGalaxyS22BS_12V": {
+      "device": "Samsung Galaxy S22",
+      "os": "12.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "samsung_galaxy_S23_ultra_13": {
+      "device": "Samsung Galaxy S23 Ultra",
+      "os": "13.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "IPhone14BS_16V": {
+      "device": "iPhone 14",
+      "os": "16",
+      "runon": "IOS_APP",
+      "deviceid": ""
+    },
+    "SamsungS20(12.0)": {
+      "device": "Samsung Galaxy S22",
+      "os": "12.0",
+      "runon": "ANDROID_APP",
+      "deviceid": "RF8N219S9PT"
+    },
+    "iphone_11_pro_15V": {
+      "device": "iPhone 11 Pro",
+      "os": "15.4",
+      "runon": "iOS_APP",
+      "deviceid": ""
+    },
+    "iphone_14_16v": {
+      "device": "iPhone 14",
+      "os": "16.2",
+      "runon": "iOS_APP",
+      "deviceid": ""
+    },
+    "iphone_14_Pro_16V": {
+      "device": "iPhone 14 Pro",
+      "os": "16.3",
+      "runon": "iOS_APP",
+      "deviceid": ""
+    },
+    "iphone_14_Pro_Max_16V": {
+      "device": "iPhone 14 Pro Max",
+      "os": "16.0",
+      "runon": "iOS_APP",
+      "deviceid": ""
+    },
+    "iphone_14_plus_16V": {
+      "device": "iPhone 14 Plus",
+      "os": "16.0",
+      "runon": "iOS_APP",
+      "deviceid": ""
+    },
+    "SamsungLocal": {
+      "device": "emulator-5554",
+      "os": "13.0",
+      "runon": "ANDROID_APP",
+      "deviceid": ""
+    },
+    "IphoneLocal": {
+      "device": "iPhone 14",
+      "os": "16.0",
+      "runon": "iOS_APP",
+      "deviceid": "CFB3C3A2-24DF-4C07-9591-B0D321876CB8"
+    }
+  }
+}
